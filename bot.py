@@ -3,10 +3,10 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.filters import CommandStart
 from aiogram.types import BufferedInputFile
 
-bot = "8084448228:AAFV6Rhko8rMD4QZ4pATNMtq296H4F8kDus"
+bot = "token"
 
 if bot == "":
-    print("ضع التوكن في المتغير bot بالسطر 7")
+    print("ضع التوكن في المتغير bot بالسطر 6")
     sys.exit(1)
 
 bot_client = Bot(token=bot)
